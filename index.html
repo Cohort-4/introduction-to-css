@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      h1 {
+        /* css ruleset */
+        /* property-name: value; */
+        color: green;
+        text-align: center;
+        font-size: 100px;
+      }
+      h2 {
+        color: red;
+        text-align: right;
+        font-size: 2rem;
+      }
+      ul {
+        list-style: none;
+        text-align: right;
+      }
+      li {
+        /* margin is the space around an html element */
+        /* margin: top right bottom left; */
+        /* margin: 10px 10px 10px 10px; */
+        /* margin: top-and-bottom left-and-right; */
+        margin: 20px 10px;
+      }
+      p {
+        border: 1px solid red;
+        margin: 50px;
+        /* padding is the space within an html elements/tags */
+        padding: 30px;
+        background-color: dodgerblue;
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I am learning CSS which means CASCADING STYLE SHEET</h1>
+
+    <h2>Three ways of adding CSS to an HTML elements and tags</h2>
+    <!-- All html element/tag has a default font-size of 16px -->
+    <!-- 16px is equivalent to 1rem -->
+    <!-- 16px === 1rem -->
+    <ul>
+      <li>using the <em>STYLE</em> tag/element</li>
+      <li>using the <em>INLINE</em> style</li>
+      <li>using the <em>EXTERNAL</em> style</li>
+    </ul>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae aliquid
+      labore dolores optio nisi temporibus. Nam, dolore! Consectetur,
+      temporibus?
+    </p>
+
+    <!-- adding styles html element using inline style -->
+    <div>
+      <span>Adding CSS to an html elements using inline style</span>
+      <h3
+        style="
+          background-color: blue;
+          color: yellow;
+          padding: 30px;
+          text-align: center;
+        "
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quae!
+        Fugit iste laboriosam molestias, assumenda quasi totam quae magnam
+        expedita? Sed ullam possimus tempore laborum dicta excepturi, fuga,
+        corporis consequatur ab veniam sapiente illum. Modi id dolores nam!
+        Cumque, tenetur aperiam tempore quibusdam beatae totam quod consectetur
+        voluptatum! Obcaecati, totam?
+      </h3>
+    </div>
+    <span>Adding CSS to an html elements using external style</span>
+    <div>
+      <h4>Lorem ipsum dolor sit amet.</h4>
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        mollitia architecto at eaque voluptatum itaque amet nobis illum. Dolore
+        qui itaque ex cupiditate, saepe fugit a illum? Iste, aspernatur autem?
+      </span>
+    </div>
+  </body>
+</html>
