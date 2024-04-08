@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 2px solid red; */
+}
+.my-heading {
+  border: 3px solid gray;
+  width: 70%;
+  margin: 10px 20px;
+  padding: 20px;
+  background-color: dodgerblue;
+  color: #fff;
+  text-align: center;
+}
+.title {
+  margin-bottom: 1.5rem;
+}
+.desc {
+  font-size: 1.2rem;
+  text-decoration: overline;
+}
+#my-para {
+  color: purple;
+}
+h3,
+h4,
+h5 {
+  color: green;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+h1.my-first-heading {
+  color: blue;
+}
+h2.my-second-heading {
+  color: indigo;
+}
+[href] {
+  color: red;
+}
+input {
+  padding: 1rem;
+}
+.btn-one {
+  background-color: dodgerblue;
+  border: none;
+  padding: 1.2rem 2rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-one:hover {
+  background-color: red;
+}
+.btn-two:disabled {
+  color: gray;
+  border: none;
+  padding: 1.2rem 2rem;
+  font-size: 1.2rem;
+  border: 1px solid #efefef;
+}

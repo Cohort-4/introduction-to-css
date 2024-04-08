@@ -1,0 +1,28 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* element selector */
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 2rem auto;
+}
+tr {
+  text-align: left;
+}
+th,
+td {
+  border: 2px solid #efefef;
+  padding: 12px;
+  font-size: 1.5rem;
+}
+tr:nth-child(odd) {
+  background-color: dodgerblue;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background-color: navy;
+  color: #fff;
+}
