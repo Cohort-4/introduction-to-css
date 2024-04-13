@@ -61,3 +61,37 @@ input {
   font-size: 1.2rem;
   border: 1px solid #efefef;
 }
+.btn-three {
+  background-color: dodgerblue;
+  border: none;
+  padding: 1.2rem 2rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.btn-three:hover {
+  border: 2px solid red;
+  background-color: white;
+  color: black;
+}
+.input-container{
+  text-align: center;
+  margin: 0 auto;
+}
+.my-input {
+  width: 50%;
+}
+::placeholder {
+  color: navy;
+  font-size: 1rem;
+  text-align: right;
+}
+.pseudo-para::first-letter{
+  color: red;
+  font-size: 3rem;
+}
+.pseudo-para-text::first-line{
+  color: dodgerblue;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
