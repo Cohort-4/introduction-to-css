@@ -95,3 +95,12 @@ input {
   font-size: 3rem;
   text-transform: uppercase;
 }
+.container p{
+  color: red;
+}
+.container-two > p{
+  color: rgb(249, 15, 245);
+}
+ .container-three > div{
+color: rgb(176, 176, 54);
+}
