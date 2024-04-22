@@ -30,3 +30,29 @@
   bottom: 0;
 }
 /* POSITION ABSOLUTE */
+
+/* POSITION STICKY */
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: red;
+  color: #fff;
+  font-size: 3rem;
+}
+/* POSITION STICKY */
+
+/* POSITION FIXED  */
+.fixed {
+  position: fixed;
+  right: 40px;
+  bottom: 0;
+}
+.fixed p{
+  background-color: dodgerblue;
+  padding: 10px;
+  color: #fff;
+}
+.fa-regular {
+  font-size: 4rem;
+}
+/* POSITION FIXED  */
