@@ -5,10 +5,10 @@
 }
 /* POSITION RELATIVE */
 .relative {
+  position: relative;
   background-color: red;
   color: white;
   padding: 3rem;
-  position: relative;
   left: 100px;
 }
 /* POSITION RELATIVE */
