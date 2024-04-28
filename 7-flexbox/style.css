@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+.parent-container {
+  display: flex;
+}
+.parent-container > div {
+  background-color: dodgerblue;
+  margin: 0.5rem;
+  padding: 1rem;
+  color: white;
+}
+.direction-container {
+  display: flex;
+  flex-direction: column;
+}
+.direction-container > div {
+  background-color: rebeccapurple;
+  margin: 0.5rem;
+  padding: 1rem;
+  color: white;
+}
+.wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrap-container > div {
+  background-color: orange;
+  margin: 0.5rem;
+  padding: 2rem;
+  color: white;
+}
