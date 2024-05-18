@@ -51,9 +51,11 @@ a {
 
 /* hero styles */
 .hero-container {
+  margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   padding: 70px;
+  min-height: 100vh;
 }
 .left-container {
   flex: 1;
@@ -129,6 +131,114 @@ a {
 }
 /* courses styles */
 
+/* faq styles */
+.faq-container {
+  padding: 1rem 70px;
+}
+.faq-container h2 {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.questions-answers {
+  margin-top: 1.5rem;
+}
+.faq-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+.faq-card {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 45%;
+}
+.questions {
+}
+.answers {
+}
+/* faq styles */
+
+/* newsletter styles */
+.newsletter-container {
+  padding: 1rem 70px;
+}
+.newsletter-container h2 {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 25vh;
+}
+form {
+  display: flex;
+  gap: 0.4rem;
+}
+input {
+  /* width: 100%; */
+  padding: 0.7rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid dodgerblue;
+}
+button {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: #fff;
+}
+/* newsletter styles */
+
+/* footer-container */
+.footer-container {
+  padding: 1rem 70px;
+  background-color: dodgerblue;
+  color: #fff;
+  margin-top: 4rem;
+}
+.footer-content {
+  display: flex;
+  gap: 1rem;
+}
+.footer-content h2{
+  margin-bottom: 1.5rem;
+}
+.logo-wrapper {
+  flex: 1;
+}
+.footer-link-wrapper {
+  flex: 1;
+}
+.footer-links{
+  list-style: none;
+}
+.footer-link{
+
+}
+.socials {
+  flex: 1;
+}
+.address {
+  flex: 1;
+}
+/* footer-container */
+
 /* media query */
 @media (max-width: 560px) {
   .nav-list-item {
@@ -148,6 +258,9 @@ a {
   }
   .card {
     width: 40%;
+  }
+  .faq-card {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
