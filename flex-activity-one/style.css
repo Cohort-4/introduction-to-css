@@ -253,7 +253,7 @@ input {
 }
 /* footer-container */
 
-/* media query */
+/* media query start */
 @media (max-width: 560px) {
   .nav-list-item {
     display: none;
