@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  margin: 3rem 0;
+}
+.container {
+  display: grid;
+  /* grid-template-columns: auto auto auto auto; */
+  grid-template-columns: repeat(4, 1fr);
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  gap: 10px;
+  padding: 20px;
+}
+.container > div {
+  background-color: orange;
+  color: #fff;
+  padding: 20px;
+}
+.container-2 {
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: auto auto auto auto; */
+  grid-template-rows: repeat(4, 1fr);
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  gap: 10px;
+  padding: 20px;
+}
+.container-2 > div {
+  background-color: orange;
+  color: #fff;
+  padding: 20px;
+}
