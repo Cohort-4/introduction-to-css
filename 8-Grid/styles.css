@@ -7,6 +7,9 @@ h2 {
   text-align: center;
   margin: 3rem 0;
 }
+h3, p {
+  padding: 1rem;
+}
 .container {
   display: grid;
   /* grid-template-columns: auto auto auto; */
@@ -68,7 +71,7 @@ h2 {
   display: grid;
   background-color: orange;
   height: 400px;
-  padding: 1rem;
+  padding: 60px;
   gap: 1rem;
   grid-template-columns: 100px 100px 100px;
   /* align-content: start; */
@@ -137,7 +140,7 @@ h2 {
   grid-row: 2 / 4;
 }
 .grid-row-item-9 {
-  grid-row: 3 / 5;
+  grid-row: 3 / 4;
 }
 /* grid-row */
 
@@ -152,8 +155,8 @@ h2 {
     "menu main main main aside aside"
     "menu footer footer footer footer footer";
 }
-.grid-template-area-container > div{
-    background-color: purple;
+.grid-template-area-container > div {
+  background-color: purple;
   color: #fff;
   padding: 20px;
 }
